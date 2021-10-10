@@ -8,7 +8,7 @@ spec:
     matchLabels:
       app: whoami
   minReadySeconds: 5
-  replicas: 3
+  replicas: 4
   template:
     metadata:
       labels:
